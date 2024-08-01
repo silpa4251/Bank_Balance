@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank balance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+    <div id="container" align="center">
+        <h1>Check your Bank Balance</h1><br>
+    
+        <h2>Amount to deposit:</h2>
+        <input type="text" id="depositin" placeholder="000000">
+        <button onclick="deposit()" id="btn1">Deposit</button>
+        <br><br>
+        <h2>Amount to withdraw:</h2>
+        <input type="text" id="withdrawin" placeholder="000000">
+        <button id="btn2" onclick="withdraw()">Withdraw</button>
+        <br><br><br>
+        
+        <button id="btn3" onclick="currentbalance()">Check your current Balance</button>
+        <br>
+        <h2 id="show"></h2>
+        <script src="script.js"></script>
+    </div>
+</div>
+</body>
+</html>
